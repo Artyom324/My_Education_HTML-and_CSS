@@ -1,0 +1,15 @@
+h1 {
+color: blueviolet;
+}
+h2 {
+background: yellowgreen;
+}
+p {
+font-size: 23px;
+}
+ol{
+color: darkred;
+}
+body.kvas {
+	background: red;
+}

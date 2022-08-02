@@ -1,0 +1,8 @@
+p:first-line {
+	font-style: italic;
+	color: red;
+}
+body {
+	margin-left: 15%;
+	margin-right: 15%;
+}
