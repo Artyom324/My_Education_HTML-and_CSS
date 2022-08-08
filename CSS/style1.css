@@ -1,0 +1,43 @@
+p {
+	font-family: 'Inspiration', cursive;
+	font-size: 23px;
+}
+caption {
+	font-size: 23px;
+	font-style: italic;
+}
+table, tr, td, th {
+	border: 2px solid darkgreen;
+	border-collapse: collapse;
+	padding: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+table {
+	width: 100%;
+}
+.text {
+	text-align: center;
+}
+a:link, a:visited {
+	background: blue;
+	color: rgb(23, 157, 178);
+}
+a:hover {
+	background: red;
+	color: darkred;
+}
+a:active {
+	background: greenyellow;
+	color: green;
+}
+a[lang]:visited {
+	background: yellow;
+	color: greenyellow;
+}
+a[lang]:hover {
+	background: red;
+	color: darkred;
+}
+a[lang]:active {
+	background: greenyellow;
+	color: green;
