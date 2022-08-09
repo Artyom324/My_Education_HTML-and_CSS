@@ -1,9 +1,45 @@
 h1 {
 	font-family: Roboto, Arial, Helvetica, Verdana; /* Рублённые шрифты (без засечек) */
+	text-shadow: 3px 5px 4px #f3834373; /* Горизонталь, вертикаль, глубина размытия, цвет */
+	text-align: center;
 }
+
 p {
-	text-decoration: ;
+	line-height: 150%;
 }
+
 h2 {
 	font-family: 'Alumni Sans Inline One', cursive;
+	text-align: center;
+
+}
+
+h2::first-letter{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+body {
+	max-width: 600px;
+	margin: 0 auto;
+
+}
+
+h3 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 2em;
+}
+
+.ram {
+	border: 2px double darkgreen;
+	padding: 19px;
+	background-color: #90ee90;
+}
+
+ol {
+	list-style-type: square;
+	list-style-position outside;
+	/* border: 1px solid #987;
+	list-style-image: url(../img/Зона.jpg); */
 }
