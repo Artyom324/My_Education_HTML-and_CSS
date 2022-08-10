@@ -1,49 +1,69 @@
-main {
+main{
 	max-width: 800px;
 	margin: 0 auto;
 }
-nav {
+nav{
 	background-color: #000;
 	text-align: center;
 }
-a.rev {
+a {
+	text-decoration: none;
+}
+a.rev{
 	color: #fff;
 	font-size: 20px;
 	padding: 34px;
 }
-a.log {
+a.log{
 	text-align: right;
 	color: white;
 }
-a:hover {
+a:hover{
 	text-shadow: 3px 4px 3px #7f8185;
+	text-decoration: underline;
 }
-h1.main {
+h1.main{
 	font-size: 2.7em;
 	text-align: center;
 }
-p {
+p{
 	margin-top: 0px;
 	font-size: 20px;
 	font-family: 'Oleo Script Swash Caps', cursive;
 }
-h1.logo {
+h1.logo{
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
 }
-h2 {
+h2{
 	margin-bottom: 13px;
 	font-size: 2em;
 	text-align: center;
 	padding-bottom: 0px;
 }
-#icon {
+#icon{
 	text-align: center;
 }
-footer {
+footer{
 	background-color: #6b6e75;
-	text-align: center;
+	border: 1px solid black;
+	padding: 20px 20px 0;
 }
-a[href="#"] {
+a[href="#"]{
 	color: #f5f6fa;
+}
+.iconi{
+	text-align: right;
+}
+a[id="Main"]:link{
+	text-decoration: none;
+	color: black;
+}
+a[id="Main"]:visited{
+	text-decoration: none;
+	color: black;
+	border: 0px solid black;
+}
+div {
+	margin-bottom: 5px;
 }
