@@ -23,7 +23,7 @@ a:hover{
 	text-shadow: 3px 4px 3px #7f8185;
 	text-decoration: underline;
 }
-h1.main{
+h2.main{
 	font-size: 2.7em;
 	text-align: center;
 }
@@ -42,7 +42,7 @@ h2{
 	text-align: center;
 	padding-bottom: 0px;
 }
-#icon{
+.icon{
 	text-align: center;
 }
 footer{
@@ -138,6 +138,11 @@ a.pop:visited{
 	text-shadow: none;
 	text-decoration: none;
 }
+a.pop:link{
+	color: black;
+	text-shadow: none;
+	text-decoration: none;
+}
 table, tr, td, th{
 	text-align: center;
 	border: 1px solid black;
@@ -147,9 +152,12 @@ table, tr, td, th{
 	width: 100%;
 }
 table{
-	;
+	text-align: center;
 }
 .capti{
 	font-size: 20px;
 	font-family: 'Pacifico', cursive;
+}
+img{
+	width: 30px;
 }
