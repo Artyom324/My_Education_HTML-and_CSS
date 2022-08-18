@@ -1,3 +1,11 @@
 body{
-	padding: 20px;
+	padding: 20px;	
+}
+p.test1{
+	background-image: linear-gradient(yellow, transparent), 
+					  linear-gradient(120deg, greenyellow, transparent), 
+					  linear-gradient(200deg, green, transparent);
+} 
+p.test2{
+	background-image: radial-gradient(circle at 10% 90%, red, blue);
 }
