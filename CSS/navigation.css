@@ -1,0 +1,76 @@
+body{
+	max-width: 700px;
+	margin: 0 auto;
+}
+a.button{
+	border: 1px solid rgb(181, 80, 7);
+	background-color: rgb(252, 108, 5);
+	color: #ffffff;
+	padding: 4px;
+	text-decoration: none;
+	border-radius: 3px;
+	font-size: 1.3em;
+}
+a.button:hover{
+	border: 1px solid rgb(181, 80, 7);
+	background-color: rgb(250, 29, 0);
+	color: rgb(245, 182, 174);
+	padding: 4px;
+	text-decoration: none;
+	border-radius: 3px;
+	font-size: 1.3em;
+}
+span.button2{
+	position: relative;
+	background-position: left top;
+	background-image: url(../img/nav.png);
+	width: 25px;
+	height: 34px;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	display: inline-block;
+}
+span.button2:hover{
+	background-position: left top -34px;
+	cursor: pointer;
+	background-origin: content-box;
+}
+ul.nav{
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+ul.nav li{
+	display: inline;
+}
+ul.nav a{
+	display: inline-block;
+	border: 1px dashed #000000;
+	padding: 5px 10px;
+	background: #1a1a1a;
+	text-decoration: none;
+	color: #f33;
+	border-radius: 4px;
+}
+.button3{
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid #47040b;
+	padding: 12px;
+	text-decoration: none;
+	background-color: red;
+	color: yellow;
+	font-size: 21px;
+	box-shadow: 5px 2px 1px 0px rgba(0, 0, 0, 0.8);
+}
+.button3:hover{
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid #47040b;
+	padding: 12px;
+	text-decoration: none;
+	background-color: #f50521;
+	color: yellow;
+	font-size: 21px;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+}
