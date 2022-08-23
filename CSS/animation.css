@@ -1,0 +1,26 @@
+body{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.bod{
+	border: 1px solid black;
+	max-width: 500px;
+	transform: scale(1.03);
+}
+a{
+	padding: 9px;
+	background-color: #FF6603;
+	color: #000000;
+	border: 5px solid #660034;
+	transition-property: background-color, color, border;
+	transition-duration: 1s,1s,2s;
+	transition-delay: 0s,0s,1s;
+	text-decoration: none;
+	margin: 5px 0px 5px;
+	display: inline-block;
+}
+a:hover{
+	color: white;
+	background-color: #660034;
+	border-color: #FF6603;
+}
