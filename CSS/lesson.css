@@ -35,7 +35,7 @@ p{
     box-shadow: 0 0 3px 4px #fff;
     color: white;
 }
-.subform input[type="radio"]{
+.subform input[type="checkbox"]{
     margin-left: 60px;
 }
 .subform input[type="text"],.subform input[type="email"], .subform textarea{

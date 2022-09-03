@@ -13,49 +13,30 @@
         <form method="post" action="/" class="subform">
             <p>
                 <label for="name">Как вас зовут?</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required>
             </p>
             <p>
                 <label for="email">Введите вашу почту: </label>
                 <input type="email" name="email" id="email">
             </p>
-            <p>
-                <label for="age">Введите ваш возраст: </label>
-                <select name="age" id="age">
-                    <option>14</option>
-                    <option>15</option>
-                    <option>16</option>
-                    <option>17</option>
-                    <option>18</option>
-                    <option>19</option>
-                    <option>20</option>
-                    <option>21</option>
-                    <option>22</option>
-                    <option>23</option>
-                    <option>24</option>
-                    <option>25</option>
-                    <option>26</option>
-                    <option>27</option>
-                    <option>28</option>
-                    <option>29</option>
-                    <option>30</option>
-                    <option>31</option>
-                </select>
-            </p>
-            <p>Есть опыт изучени:
+            <p>Есть опыт изучения:
 				<label>
-					<input type="radio" name="skill" value="1">
+					<input type="checkbox" name="skill" value="1">
 					JavaScript
 				</label>
 				<label>
-					<input type="radio" name="skill" value="2">
+					<input type="checkbox" name="skill" value="2">
 					HTML & CSS
 				</label>
 				<label>
-					<input type="radio" name="skill" value="3">
+					<input type="checkbox" name="skill" value="3">
 					PHP
 				</label>
 			</p>
+            <p>
+                <label for="age">Насколько хорошо оцените свой уровень? </label>
+                <input type="range" min="0" max="100" step="1" value="50">
+            </p>
 			<p>
 				<label for="goal">Какую цель преследую:</label>
 				<select name="goal" id="goal">
