@@ -10,8 +10,69 @@
 <body>
     <article>
         <h1>Форма ученика HTML</h1>
-        <form>
-
+        <form method="post" action="/" class="subform">
+            <p>
+                <label for="name">Как вас зовут?</label>
+                <input type="text" name="name" id="name">
+            </p>
+            <p>
+                <label for="email">Введите вашу почту: </label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p>
+                <label for="age">Введите ваш возраст: </label>
+                <select name="age" id="age">
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+            </p>
+            <p>Есть опыт изучени:
+				<label>
+					<input type="radio" name="skill" value="1">
+					JavaScript
+				</label>
+				<label>
+					<input type="radio" name="skill" value="2">
+					HTML & CSS
+				</label>
+				<label>
+					<input type="radio" name="skill" value="3">
+					PHP
+				</label>
+			</p>
+			<p>
+				<label for="goal">Какую цель преследую:</label>
+				<select name="goal" id="goal">
+					<option>Хочу сменить профессю</option>
+					<option>Повысить скилл</option>
+					<option>Как хобби</option>
+					<option>Хочу быть фрилансером</option>
+				</select>
+			</p>
+			<p>
+				<label for="comments">Ваше пожелание</label>
+				<textarea name="comments" cols="40" rows="5" id="comments">
+				</textarea>
+			</p>
+			<p>
+				<input type="submit" value="Отправить">
+			</p>
         </form>
     </article>
 </body>
