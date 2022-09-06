@@ -1,0 +1,21 @@
+.col{
+    background-color: rgb(26, 188, 26);
+}
+span.iz{
+    font-size: 3em;
+    color: #ffffff;
+}
+span{
+    font-size: 3em;
+    color: rgb(26, 188, 26); 
+}
+.container{
+    margin-top: 15px;
+}
+.row {
+    margin:0px 10px 0px;
+}
+div{
+    min-height: 200px;
+}
+    
