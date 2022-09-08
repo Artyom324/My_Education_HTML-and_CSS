@@ -1,10 +1,11 @@
-.row div{
+.row div {
     background-color: #7cf272;
     min-height: 200px;
     border: 5px solid #ffffff;
 }
-span{
+
+span {
     font-size: 3em;
-    color:#ffffff;
+    color: #ffffff;
     text-align: center;
 }
